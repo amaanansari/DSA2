@@ -74,14 +74,5 @@ jupyter notebook
 - **Engagement Metrics**: Engagement data is normalized using historical engagement from Social Blade.
 - **Fake News Classification**: Llama3.1-70b-instruct is used with Wikipedia passage retrieval to verify article claims. The classification pipeline leverages the ColBERT model to fetch relevant Wikipedia abstracts to improve accuracy.
 
-## Results
-Results are visualized as box plots demonstrating the relationship between engagement, sentiment, and political bias. These findings reveal that misinformation can drive higher variance in engagement, with outliers being responsible for spikes in interaction.
-
 ## Contributions
 Contributors: Amaan Ansari, Christopher Rau, Ria Doshi
-
-## Acknowledgments
-Special thanks to AllSides, Kaggle, and Social Blade for providing data sources and tools.
-
-For further inquiries, please contact the project contributors or open an issue in the repository.
-
